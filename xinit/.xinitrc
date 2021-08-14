@@ -51,5 +51,5 @@ fi
 setxkbmap us &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr
-picom &
+picom --config .config/picom/picom.conf &
 exec bspwm
