@@ -1,8 +1,8 @@
 alias ls="ls -al --color"
 
-alias cdstow="cd ~/Documents/Projects/dotfiles"
-alias gstow="cd ~/Documents/Projects/dotfiles; stow --adopt -vt $HOME"
-alias prevstow="cd ~/Documents/Projects/dotfiles; stow --adopt -nvt $HOME"
+alias cdstow="cd ~/dotfiles"
+alias gstow="cd ~/dotfiles; stow --adopt -vt $HOME"
+alias prevstow="cd ~/dotfiles; stow --adopt -nvt $HOME"
 
 alias c=clear
 alias x=exit
@@ -22,6 +22,7 @@ alias kttc="edit ~/.config/kitty/theme.conf"
 alias pbc="edit ~/.config/polybar/config"
 alias xin="edit ~/.xinitrc"
 alias rofic="edit ~/.config/rofi/config"
+alias piconf="sudo nvim /etc/xdg/picom.conf"
 
 alias updateappimages="sudo mv $HOME/Downloads/*.AppImage /usr/bin/appimages"
 alias minfetch="neofetch --config .config/neofetch/min.conf"
