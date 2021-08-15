@@ -1,1 +1,1 @@
-Install script coming soon™
+Install instructions coming soon™
