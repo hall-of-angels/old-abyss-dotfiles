@@ -22,7 +22,6 @@ alias kttc="edit ~/.config/kitty/theme.conf"
 alias pbc="edit ~/.config/polybar/config"
 alias xin="edit ~/.xinitrc"
 alias rofic="edit ~/.config/rofi/config"
-alias dunstc="edit ~/.config/dunst/dunstrc"
 alias piconf="edit .config/picom/picom.conf"
 
 alias updateappimages="sudo mv $HOME/Downloads/*.AppImage /usr/bin/appimages"
