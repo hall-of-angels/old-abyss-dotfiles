@@ -7,7 +7,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bash $HOME/.config/polybar/launch.sh
 
 #set desktops
-bspc monitor -d I II III IV V VI VII VIII
+bspc monitor -d I II III IV V VI
 
 #window settings
 bspc config border_width         6

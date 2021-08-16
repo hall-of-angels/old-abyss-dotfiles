@@ -89,9 +89,6 @@ ws-icon-2 = III;
 ws-icon-3 = IV;
 ws-icon-4 = V;
 ws-icon-5 = VI;
-ws-icon-6 = VII;7
-ws-icon-7 = VIII;8
-
 
 [module/cpu]
 type = internal/cpu
