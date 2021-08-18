@@ -27,5 +27,6 @@ source ~/.config/bspwm/theme
 
 #window rules
 bspc rule -a Nitrogen state=floating follow=on
+bspc rule -a Gscreenshot state=floating follow=on
 bspc rule -a firefox desktop='^2' follow=on
 bspc rule -a Thunar desktop='^5' follow=on
