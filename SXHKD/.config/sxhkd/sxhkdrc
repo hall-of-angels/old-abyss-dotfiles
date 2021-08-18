@@ -143,7 +143,3 @@ F12
 	pulseaudio-control --volume-max 130 up
 F10
         pulseaudio-control togmute
-
-# lock
-super + shift + x
-	betterlockscreen -l
