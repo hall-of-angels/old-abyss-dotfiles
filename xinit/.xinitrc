@@ -56,4 +56,5 @@ dunst &
 nm-applet &
 steam &
 firefox &
+discord &
 exec bspwm
