@@ -8,7 +8,11 @@ super + Return
 
 # program launcher
 super + r
-	rofi -show combi -show-icons -sidebar mode -font "Fira Code Nerd Font 14"
+	rofi -show combi -show-icons -sidebar -font "Fira Code Nerd Font 14"
+
+# power menu
+super + p
+	rofi -show power-menu -modi power-menu:rofi-power-menu -show-icons -sidebar mode -font "Fira Code Nerd Font 14"
 
 # browser
 super + b
@@ -21,6 +25,10 @@ super + shift + f
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# screenshot
+super + shift + s
+	gscreenshot
 
 #
 # bspwm hotkeys
