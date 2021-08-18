@@ -53,4 +53,7 @@ nitrogen --restore &
 xsetroot -cursor_name left_ptr
 picom --config .config/picom/picom.conf &
 dunst &
+nm-applet &
+steam &
+firefox &
 exec bspwm
