@@ -9,7 +9,7 @@ secondary = #928374
 alert = #ea6962
 
 [bar/bar1]
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR:}
 width = 100%
 height = 27
 ;offset-x = 1%
@@ -84,11 +84,15 @@ label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
 ws-icon-0 = I;
-ws-icon-1 = II;
-ws-icon-2 = III;
+ws-icon-1 = II;ﭮ
+ws-icon-2 = III;
 ws-icon-3 = IV;
-ws-icon-4 = V;
-ws-icon-5 = VI;
+ws-icon-4 = V;
+ws-icon-5 = VI;
+ws-icon-6 = VII;
+ws-icon-7 = VIII;
+ws-icon-8 = IX;
+ws-icon-9 = X;
 
 [module/cpu]
 type = internal/cpu
