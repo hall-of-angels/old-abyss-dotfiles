@@ -10,7 +10,7 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 
 # Exports
-VISUAL="nvim"
+export VISUAL="nvim"
 
 # Prompt
 color="6"
