@@ -4,6 +4,7 @@ These are the dotfiles for my BSPWM rice.
 These files are personally oriented and as such you will have to edit some files if you intend to use them yourself.
 Note: if any direcories specified do not exist for you, manually add them.
 Note: if you do not use xinit as your startup manager, you may want to look at my .xinitrc and copy some of the startup apps set.
+Note: you may also want to install the `gruvbox-material-gtk` and `gruvbox-material-icon` GTK and icon themes.
 
 ---
 
