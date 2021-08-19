@@ -46,6 +46,16 @@ Requires the `sxhkd` package, but also has shortcuts referring to `kitty`, `rofi
 $ cd ~/dotfiles
 $ stow -vt $HOME SXHKD
 ```
-**By copying files:** copy sxhkd from `~/dotfiles/SXHKD/.config/sxhkd/` to `~/.config/sxhkd`.
+**By copying files:** copy sxhkdrc from `~/dotfiles/SXHKD/.config/sxhkd/` to `~/.config/sxhkd`.
 
+## Kitty
+### Prerequisites
+Requires `ttf-fira-code` and `nerd-fonts-fira-code` packages, or Fira Code and Fira Code Nerd Font fonts.
 
+### Installation
+**Using stow:** Use `stow` to link the config files for Kitty:
+```
+$ cd ~/dotfiles
+$ stow -vt $HOME Kitty
+```
+**By copying files:** copy kitty.conf and theme.conf from `~/dotfiles/Kitty/.config/kity/` to `~/.config/kitty`.
