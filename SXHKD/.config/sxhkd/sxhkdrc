@@ -141,9 +141,9 @@ super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # volume
-F11
+XF86AudioLowerVolume
 	pulseaudio-control --volume-max 130 down
-F12
+XF86AudioRaiseVolume
 	pulseaudio-control --volume-max 130 up
-F10
+XF86AudioMute
         pulseaudio-control togmute
