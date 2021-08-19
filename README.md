@@ -13,6 +13,12 @@ Note: if you do not use xinit as your startup manager, you may want to look at m
 These instructions require the `git` and `stow` packages/programs, and assume you have them installed already.
 Because the installation uses `stow`, you **should not delete the repository** If you need to so you can use these files in your own dotfiles, or for any other reason, there will also be instructions for which files to copy to where in your system. 
 
+Also, before you do anything, obviously clone this repo into your home directory:
+```
+$ cd ~
+$ git clone https://github.com/hall-of-angels/dotfiles.git
+```
+
 ## BSPWM
 ### Prerequisites
 Before installing my BSPWM dotfiles, you must install the `bspwm` package. If you are using multiple monitors, you may also wish to get the names of your monitors with the `xrandr` package:
