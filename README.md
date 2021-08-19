@@ -36,7 +36,7 @@ $ stow -vt $HOME BSPWM
 
 You can edit the colors using `~/.config/bspwm/theme.`
 
-##SXHKD
+## SXHKD
 ### Prerequisites
 Requires the `sxhkd` package, but also has shortcuts referring to `kitty`, `rofi`, `rofi-power-menu`, `firefox`, `thunar`, `gscreenshot`, and `pactl` by default; you may want to edit/remove these shortcuts.
 
