@@ -35,3 +35,17 @@ $ stow -vt $HOME BSPWM
 - You may also wish to remove the window rules I have set if you don't find them useful.
 
 You can edit the colors using `~/.config/bspwm/theme.`
+
+##SXHKD
+### Prerequisites
+Requires the `sxhkd` package, but also has shortcuts referring to `kitty`, `rofi`, `rofi-power-menu`, `firefox`, `thunar`, `gscreenshot`, and `pactl` by default; you may want to edit/remove these shortcuts.
+
+### Installation
+**Using stow:** Use `stow` to link the config files for SXHKD:
+```
+$ cd ~/dotfiles
+$ stow -vt $HOME SXHKD
+```
+**By copying files:** copy sxhkd from `~/dotfiles/SXHKD/.config/sxhkd/` to `~/.config/sxhkd`.
+
+
