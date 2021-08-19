@@ -34,3 +34,4 @@ bspc rule -a Thunar desktop='^10' follow=on
 bspc rule -a Steam desktop='^7'
 bspc rule -a discord desktop='^2'
 bspc rule -a SmartGit desktop='^9' follow=on
+bspc rule -a UnityHub desktop='^8' follow=on
