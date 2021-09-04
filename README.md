@@ -12,7 +12,7 @@ Note: you may also want to install the `gruvbox-material-gtk` and `gruvbox-mater
 
 ## Prerequisites
 These instructions require the `git` and `stow` packages/programs, and assume you have them installed already.
-Because the installation uses `stow`, you **should not delete the repository** If you need to so you can use these files in your own dotfiles, or for any other reason, there will also be instructions for which files to copy to where in your system. 
+Because the installation uses `stow`, you **should not delete the repository.** If you need to so you can use these files in your own dotfiles, or for any other reason, there will also be instructions for which files to copy to where in your system. 
 
 Also, before you do anything, obviously clone this repo into your home directory:
 ```
